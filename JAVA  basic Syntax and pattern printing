@@ -11,6 +11,7 @@ JAVA pattern printing
 1.*
   **
   ***
+
 class Pattern
 {
 public static void main (String [] args)
@@ -23,4 +24,16 @@ public static void main (String [] args)
  System.out.print("* ");
  }
 }
+
+            OR
+class Pattern
+{
+public static void main (String [] args)
+ {
+ System.out.println("*");
+ System.out.println("**");
+ System.out.println("***");
+ }
+}
+
 
