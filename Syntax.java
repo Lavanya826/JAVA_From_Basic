@@ -35,3 +35,36 @@ public static void main (String [] args)
  System.out.println("***");
  }
 }
+2.Tree
+     *
+    * *
+   * * *
+  * * * *
+    | |
+    | |
+ 
+class Tree 
+ {
+  public static void main(String [] args)
+  {
+   System.out.print("  ");
+   System.out.print("  ");
+   System.out.print("  ");
+   System.out.println("* ");
+   System.out.print("  ");
+   System.out.print("  ");
+   System.out.print("* ");
+   System.out.println("* ");
+   System.out.print("  ");
+   System.out.print("* ");
+   System.out.print("* ");
+   System.out.println("* ");
+   System.out.print("* ");
+   System.out.print("* ");
+   System.out.print("* ");
+   System.out.println("* ");
+   System.out.print("  ");
+   System.out.print("| ");
+   System.out.println("| ");
+  }
+ }
