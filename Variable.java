@@ -39,8 +39,27 @@ class Car{
 }
 
 //Create a Mobile class with variables like brand, model, RAM, storage, price, color, etc. Create an object and print them.
+class Mobile{
+  public static void main(String [] args){
+    String brandName="Iphone";
+    System.out.println(brandName);
 
+    String color="Light_blue";
+    System.out.println(color);
+    
+    String material="Metal";
+    System.out.println(material);
 
+    float rating=10f;
+    System.out.println(rating);
+
+    long serialNo=92748237617721832l;
+    System.out.println(serialNo);
+
+    char vpnno=6;
+    System.out.println(vpnno);
+  }
+}
 
 
 
