@@ -26,7 +26,17 @@ class Differnece{
 }
 
 3. Take two integers and print their product.
-
+import java.util.Scanner;
+class Integer{
+  public static void main(String [] args){
+    Scanner s=new Scanner;
+    System.out.println("Enter no");
+    int a=s.nextInt();
+    int b=s.nextInt();
+    int sum=a*b;
+    System.out.println("sum");
+  }
+}
 4. Take two integers and print their quotient.
 
 5. Take two integers and print the remainder.
