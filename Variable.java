@@ -56,7 +56,7 @@ class Mobile{
     long serialNo=92748237617721832l;
     System.out.println(serialNo);
 
-    char vpnno=6;
+    int vpnno=6;
     System.out.println(vpnno);
   }
 }
@@ -64,10 +64,27 @@ class Mobile{
 
 
 //Create a Book class with bookName, author, pages, price, rating, language, etc. Create an object and print all values.
-
-
-
-
+class Book{
+  public static void main(String [] args){
+    String bookName="The red Bird";
+    System.out.println(bookName);
+    
+    String author="Ravindranath Tagore");
+    System.out.println(author);
+    
+    int pages=9;
+    System.out.println(pages);
+    
+    int prices=890;
+    System.out.println(prices);
+    
+    float rating=4.5f;
+    System.out.println(rating);
+    
+    String language="English,Hindi,Marathi";
+    System.out.println(language);
+  }
+}
 
 //Create a Laptop class with at least 12 variables using different data types (int, double, float, char, boolean, String, etc.).
 
