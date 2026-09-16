@@ -76,6 +76,22 @@ class Even{
   }
 }
 
+7.Even or odd using two if statement using scanner.
+import java.util.Scanner;
+class Number{
+  public static void main(String [] args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter no : ");
+    int num=s.nextInt();
+    if(num%2==0){
+      System.out.println("Its even Number");
+    }
+    if(num%!2=0){
+      System.out.println("Its odd Number");
+    }
+  }
+}
+
 
 
 
