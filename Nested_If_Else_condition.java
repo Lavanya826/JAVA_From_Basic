@@ -1,6 +1,6 @@
                                  //NESTED IF ELSE CONDITION
 
-'If' condition is present in another 'If' condition is known as nested if else condition.
+The 'If' condition is present in another 'If' condition is known as nested if else condition.
 
 /*
 ------------------------------------------------
