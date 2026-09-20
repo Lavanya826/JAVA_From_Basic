@@ -129,107 +129,61 @@ class Alphabet{
 }
 
 /*
-------------------------------------------------
-QUESTION 3: Calculator
-------------------------------------------------
+========================================================
+        SWITCH STATEMENT - AREA CALCULATOR
+========================================================
 
-Given:
-int a = 20;
-int b = 5;
-char operator = '+';
+Write a Java program using Scanner and switch statement
+to calculate the area of different shapes.
+Display the following menu:
 
-Write a program using switch:
+1. Triangle
+2. Circle
+3. Rectangle
+4. Square
+Take the user's choice using Scanner.
+Based on the choice, calculate the area using the
+following formulas:
 
-'+' → Addition
-'-' → Subtraction
-'*' → Multiplication
-'/' → Division
+1. Triangle:
+   Area = 0.5 × base × height
+2. Circle:
+   Area = 3.14 × radius × radius
+3. Rectangle:
+   Area = length × breadth
+4. Square:
+   Area = side × side
 
-Expected Output:
-25
+If the user enters any choice other than 1, 2, 3, or 4,
+print:
+"Invalid Choice"
+
 */
 
-
-/*
-------------------------------------------------
-QUESTION 4: Month
-------------------------------------------------
-
-Given:
-int month = 4;
-
-Write a program using switch to print:
-
-1 → "January"
-2 → "February"
-3 → "March"
-4 → "April"
-5 → "May"
-6 → "June"
-7 → "July"
-8 → "August"
-9 → "September"
-10 → "October"
-11 → "November"
-12 → "December"
-
-If the number is not between 1 and 12:
-→ "Invalid Month"
-
-Expected Output:
-April
-*/
-
-
-/*
-------------------------------------------------
-QUESTION 5: Menu Selection
-------------------------------------------------
-
-Given:
-int choice = 2;
-
-Write a program using switch:
-
-1 → "Pizza"
-2 → "Burger"
-3 → "Pasta"
-4 → "Sandwich"
-5 → "Coffee"
-
-For any other number:
-→ "Invalid Choice"
-
-Expected Output:
-Burger
-*/
-
-
-/*
-------------------------------------------------
-QUESTION 6: Number to Word
-------------------------------------------------
-
-Given:
-int num = 5;
-
-Write a program using switch:
-
-1 → "One"
-2 → "Two"
-3 → "Three"
-4 → "Four"
-5 → "Five"
-
-For any other number:
-→ "Invalid Number"
-
-Expected Output:
-Five
-*/
-
-/*
-================================================
-                 END
-================================================
-*/
+import java.util.Scanner;
+class Shapes{
+  public static void main(String [] args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("1.Triangle");
+    System.out.println("2.Circle");
+    System.out.println("3.Rectangle");
+    System.out.println("4.Square");
+    System.out.print("Enter your choice : ");
+    int choice=s.nextInt();
+    switch(choice){
+      case 1:
+        System.out.print("Enter base : ");
+        double base=s.nextDouble();
+        System.out.print("Enter height : ");
+        double height=s.nextDouble();
+        double triangle=0.5*base*height;
+        System.out.println("Area of triangle is " + triangle);
+      case 2:
+        System.out.print("Enter radius : ");
+        double base=s.nextDouble();
+        double circle=3.14*radius*radius;
+        System.out.println("Area of circle is " + circle);
+    }
+    
+  }
+}
