@@ -19,6 +19,19 @@ class Demo{
   }
 }
 1 to 10 sacnner
+import java.util.Scanner;
+class Demo{
+  public static void main(String [] args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter no :");
+    int sp=s.nextInt();
+    int i=1;
+    do{
+      System.out.println(i);
+      i++;
+    }while(i<=n);
+  }
+}
 Even forward
 Even backward
 Even scanner
