@@ -2,6 +2,15 @@
 1. Check Even or Odd
 
 Write a Java program to check whether a number is even or odd using if-else.
+class Demo{
+  public static void main(String [] args){
+    if(i%2==0){
+      System.out.println("even");
+    }else{
+      System.out.println("odd");
+    }
+  }
+}
 
 2. Check Positive, Negative or Zero
 
