@@ -4,6 +4,7 @@
 Write a Java program to check whether a number is even or odd using if-else.
 class Demo{
   public static void main(String [] args){
+    int i=8;
     if(i%2==0){
       System.out.println("even");
     }else{
@@ -16,9 +17,18 @@ class Demo{
 
 Input a number and check whether it is:
 
-Positive
-Negative
-Zero
+class Num{
+  public static void main(String [] args){
+    int i=-1;
+    if(i>0){
+      System.out.println("Positive");
+    }else if(i<0){
+      System.out.println("negative");
+    }else{
+      System.out.println("Zero");
+    }
+  }
+}
 3. Find Greater of Two Numbers
 
 Input two numbers and print the greater number.
@@ -34,7 +44,18 @@ Input a character and check whether it is a vowel or consonant.
 6. Check Eligibility to Vote
 
 Input age and check whether the person is eligible to vote.
-
+class Num{
+  public static void main(String [] args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter number : ");
+    int sum=s.nextInt();
+    if(sum>=18){
+      System.out.println("Eligible to vote");
+    }else{
+      System.out.println("Not eleigible to vote");
+    }
+  }
+}
 7. Check Pass or Fail
 
 Input marks:
